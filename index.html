@@ -13,7 +13,7 @@ What is PyLSD?
 </h2>
 <p>
 PyLSD is a layer over the LSD software.
-The reader of this page should already be familiar with <a href="https://github.com/nuzillard/LSD">LSD</a>.
+The reader of this page should already be familiar with <a href="https://nuzillard.github.io/LSD/">LSD</a>.
 PyLSD processes enhanced LSD input files, and thus solves structure elucidation problems
 LSD cannot solve.
 The enhancements allow one to deal with compounds for which the exact molecular
@@ -41,7 +41,7 @@ Find pyLSD on <a href="https://www.linkedin.com/groups/4490407/" target="_blank"
 </p>
 
 <p>
-Find pyLSD on <a href="https://github.com/nuzillard/PyLSD">GitHub</a>
+Find pyLSD on <a href="https://nuzillard.github.io/PyLSD/">GitHub</a>
 </p>
 
 <h2>
@@ -88,15 +88,15 @@ Running pyLSD
 <p>
 <a href="INSTALL.html">INSTALL.html</a> indicates which intermediate files are created
 and provides advices for troubleshooting (see the First-aid section).
-The solution file, in SD format is named mypylsdfile_0.sdf, and is created in the LSD/Data directory.
+The solution file, in SDF format is named mypylsdfile_0.sdf, and is created in the LSD/Data directory.
 It can be used in order to improve the 2D structure depictions outlsd generates.
 </p>
 
 <h2>
-Turning a LSD data file into a pyLSD data file
+Turning an LSD data file into a pyLSD data file
 </h2>
 <p>
-A LSD data file is not (yet) a valid PyLSD data file.
+An LSD data file is not (yet) a valid PyLSD data file.
 The conversion can be achieved by adding two new commands: <code>FORM</code> and <code>PIEC</code>.
 </p>
 <p>
@@ -114,7 +114,7 @@ generally wants to do.
 </p>
 <p>
 Solution ranking by comparison between experimental and predicted chemical shift values
-requires to preserve all solutions produced by LSD by adding either a <code>DUPL 1</code>
+requires to preserve all solutions produced by LSD the writing of either a <code>DUPL 1</code>
 or a <code>DUPL 0</code> to the input file to pyLSD.
 </p>
 <p>
@@ -311,7 +311,7 @@ The best fit solution is presented first.
 Acknowledgments
 </h2>
 <ul>
-<li>Bertrand Plainchont, for many improvements on LSD that made PyLSD possible.</li>
+<li>Bertrand Plainchont, for many improvements of LSD that made PyLSD possible.</li>
 <li>Stefan Kuhn, for his help on chemical shift prediction.</li>
 </ul>
 
