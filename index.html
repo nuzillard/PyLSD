@@ -28,7 +28,7 @@ An ambiguous (or complex) LSD problem, that include a variable molecular formula
 variable status atoms (VSA), is converted by PyLSD into a set of unambiguous (or simple) LSD problem files
 that can be separately processed by the LSD software.
 The solutions files are then grouped together for ranking using the <SUP>13</SUP>C chemical shift prediction by
-<a href="http://nmrshiftdb.nmr.uni-koeln.de/">nmrshiftdb2</a>, structure diagam generation
+<a href="http://nmrshiftdb.nmr.uni-koeln.de/">nmrshiftdb2</a>, structure diagam generation,
 and display.
 </p>
 <p>
@@ -58,8 +58,8 @@ free software</A> that is distributed under the
 Version
 </h2>
 <p>
-This is version alpha-7.
-PyLSD-a7 is functional but still needs many improvements.
+This is version alpha-8.
+PyLSD-a8 is functional but still needs many improvements.
 </p>
 
 <h2>
@@ -103,7 +103,7 @@ The conversion can be achieved by adding two new commands: <code>FORM</code> and
 The <code>FORM</code> command indicates the molecular formula of the unknown compound.
 It has a single argument, a character string between double quotes,
 such as in <code>FORM "C 21 H 22 N 2 O 2"</code> for strychnine.
-All formula parts, elements symbols and coefficients are separated by white spaces.
+All formula parts, elements symbols and coefficients are separated by spaces.
 </p>
 <p>
 The <code>PIEC</code> command is a story in itself that is telled later, in a separate section.
@@ -313,13 +313,14 @@ Acknowledgments
 <ul>
 <li>Bertrand Plainchont, for many improvements of LSD that made PyLSD possible.</li>
 <li>Stefan Kuhn, for his help on chemical shift prediction.</li>
+<li>Ritchy Leroy, for translating the original Python 2 code into Python 3.</li>
 </ul>
 
 <h2>
 Contact
 </h2>
 <p>
-<a href="mailto:jm.nuzillard@univ-reims.fr">jm.nuzillard@univ-reims.fr</a>
+<a href="mailto:jean.marc.nuzillard@gmail.com">jean.marc.nuzillard@gmail.com</a>
 </p>
 </body>
 </html>

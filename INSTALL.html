@@ -12,13 +12,13 @@ PyLSD installation
 Software dependencies
 </h2>
 <ul>
-<li>A python 2.7+ interpreter is needed to run pyLSD.<br>
-Python 3 is not supported.<br>
+<li>A python 2.7+ interpreter was needed to run pyLSD up to version a7.<br>
+<b>Python 3 is required </b>from version a8, included.<br>
 The python interpreter must be directly usable from the command line.<br>
 The command <code>python --version</code> prints the version identification message.<br>
 Python installation for Windows can be achieved from
-<A HREF="https://www.python.org/downloads/release/python-2718/">https://www.python.org/downloads/release/python-2718/</A>
-by downloading and running the file pointed by &quot;Windows x86-64 MSI installer&quot;.
+<A HREF="https://www.python.org/downloads/">https://www.python.org/downloads/</A>
+by downloading and running the file pointed by &quot;Windows installer (64-bit)&quot;.
 </li>
 <li>A <A HREF="https://www.java.com/fr/download/manual.jsp">java runtime environment</A>,
 version 6 or higher, is needed for structure ranking through the prediction of chemical shifts.
@@ -32,8 +32,8 @@ Evince is often available as default viewer on Linux systems that run the GNOME 
 Download pyLSD
 </h2>
 <ul>
-<li><A HREF="https://github.com/nuzillard/PyLSD/blob/main/pylsd-windows-a7.zip">For Windows</A></li>
-<li><A HREF="https://github.com/nuzillard/PyLSD/blob/main/pylsd-linux-a7.tar.gz">For Linux</A></li>
+<li><A HREF="https://github.com/nuzillard/PyLSD/blob/main/pylsd-windows-a8.zip">For Windows</A></li>
+<li><A HREF="https://github.com/nuzillard/PyLSD/blob/main/pylsd-linux-a8.tar.gz">For Linux</A></li>
 </ul>
 <h2>
 Package contents
@@ -77,7 +77,8 @@ and class files that are needed for chemical shift prediction and solution ranki
 <li><code>self.java = '"C:\\Program Files\\Java\\jdk1.6.0_32\\bin\\java.exe"' if self.isWin else "java"</code>
 indicates the path to the java virtual machine. The path to the executable file, under Windows, can be simplified if the name
 of the directory that contains it has been included is the system environment PATH variable.</li>
-<li><code>self.javamemory = 1024</code> will allocate 1024 megabytes of memory to java. Increase value if a Java out-of-memory error occurs.</li>
+<li><code>self.javamemory = 1024</code> will allocate 1024 megabytes of memory to java.
+Increase value if a Java out-of-memory error occurs.</li>
 </ul>
 <h2>
 Testing your installation
@@ -127,7 +128,7 @@ type <code>make clean</code>, and then <code>sh install.sh</code></li>.
 Contact
 </h2>
 <p>
-<a href="mailto:jm.nuzillard@univ-reims.fr">jm.nuzillard@univ-reims.fr</a>
+<a href="mailto:jean.marc.nuzillard@gmail.com">jean.marc.nuzillard@gmail.com</a>
 </p>
 </body>
 </html>
